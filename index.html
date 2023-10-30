@@ -23,10 +23,10 @@
             var unityContainer = document.querySelector("#unity-container");
             unityContainer.style.textAlign = "left";
         } else {
-            // Desktop style: Center the canvas in the middle of the page
+            // Desktop style: Fill the height of the screen and center horizontally
             var unityContainer = document.querySelector("#unity-container");
             unityContainer.style.display = "flex";
-            unityContainer.style.justifyContent = "center";
+            unityContainer.style.flexDirection = "column";
             unityContainer.style.alignItems = "center";
         }
 
